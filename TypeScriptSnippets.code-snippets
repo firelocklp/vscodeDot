@@ -1,24 +1,24 @@
 {
 "Typescript Functional Component":{
-		"scope": "typescript,typescriptreact",
-		"prefix": "fc",
-		"body": [
-			"import {FC} from 'react';",
-			"",
-			"interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/${1:/capitalize}/}Props {",
-			"  $1",
-			"}",
-			"const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}: FC<${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/${1:/capitalize}/}Props> = ($2) => {",
-			"  return (",
-			"    <>",
-			"      <p>${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/${1:/capitalize}/}</p>",
-			"      $3",
-			"    </>",
-			"  );",
-			"};",
-			"",
-			"export default ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/};"
-		],
-		"description": "Typescript Functional Component"
-	},
+  "scope": "typescript,typescriptreact",
+  "prefix": "fc",
+  "body": [
+    "import {FC} from 'react';",
+    "",
+    "interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/${1:/capitalize}/}Props {",
+    "  $1",
+    "}",
+    "const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}: FC<${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/${1:/capitalize}/}Props> = ($2) => {",
+    "  return (",
+    "    <>",
+    "      <p>${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/${1:/capitalize}/}</p>",
+    "      $3",
+    "    </>",
+    "  );",
+    "};",
+    "",
+    "export default ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/};"
+  ],
+  "description": "Typescript Functional Component"
+  },
 }
