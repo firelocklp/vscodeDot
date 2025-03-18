@@ -1,0 +1,2 @@
+# vscodeDot
+dotFiles from VSCode
